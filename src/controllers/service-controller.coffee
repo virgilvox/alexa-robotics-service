@@ -11,7 +11,7 @@ class ServiceController
           type: "Plaintext",
           text: "You hit the service yey!"
         shouldEndSession: true
-    return response.status(200).send reply
+    return response.send reply
 
 
 module.exports = ServiceController
