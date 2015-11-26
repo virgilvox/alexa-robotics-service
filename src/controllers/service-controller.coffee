@@ -8,10 +8,10 @@ class ServiceController
       version: "1.0"
       response:
         outputSpeech:
-          type: "Plaintext",
-          text: "You hit the service yey!"
+          type: "PlainText"
+          text: "Success"
         shouldEndSession: true
-    return response.type("application/json").status(200).send reply
+    return response.status(200).send reply
 
 
 module.exports = ServiceController
