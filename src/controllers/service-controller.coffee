@@ -5,7 +5,7 @@ class ServiceController
     {body} = request
     console.log body
     reply =
-      version: "string"
+      version: "1"
       response:
         outputSpeech:
           type: "Plaintext",
